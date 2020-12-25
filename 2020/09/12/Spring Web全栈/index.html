@@ -4,15 +4,31 @@
   <meta charset="utf-8">
   
   
-  <title>Hexo</title>
+  <title>Spring web全栈 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="1 Spring入门 核心：依赖注入  Apache Maven：项目管理和构建自动化工具  Maven 提供了一个命令行工具可以把工程打包成 Java 支持的格式（比如 jar），并且支持部署到中央仓库里，这样使用者只需要通过工具就可以很快捷的运用其他人写的代码，只需要你添加依赖即可  maven安装 Maven命令 mvn clean compile编译 mvn clean package编译">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Spring web全栈">
+<meta property="og:url" content="http://example.com/2020/09/12/Spring%20Web%E5%85%A8%E6%A0%88/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="1 Spring入门 核心：依赖注入  Apache Maven：项目管理和构建自动化工具  Maven 提供了一个命令行工具可以把工程打包成 Java 支持的格式（比如 jar），并且支持部署到中央仓库里，这样使用者只需要通过工具就可以很快捷的运用其他人写的代码，只需要你添加依赖即可  maven安装 Maven命令 mvn clean compile编译 mvn clean package编译">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://style.youkeda.com/img/ham/course/j4/mvn.svg">
+<meta property="og:image" content="https://style.youkeda.com/img/ham/course/j4/Maven%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5.png">
+<meta property="og:image" content="https://style.youkeda.com/img/ham/course/j4/pomxml.svg">
+<meta property="og:image" content="https://style.youkeda.com/img/ham/course/j4/service1.svg">
+<meta property="og:image" content="https://style.youkeda.com/img/ham/course/j4/ioc.svg">
+<meta property="og:image" content="https://style.youkeda.com/img/ham/course/j4/beaninstance.svg">
+<meta property="og:image" content="https://style.youkeda.com/img/ham/course/j4/springmvc1.svg">
+<meta property="og:image" content="https://style.youkeda.com/img/ham/course/j4/hello.html2.png">
+<meta property="og:image" content="https://style.youkeda.com/img/ham/course/j4/url.svg">
+<meta property="og:image" content="https://style.youkeda.com/img/ham/course/j4/template1.svg">
+<meta property="og:image" content="https://style.youkeda.com/img/ham/course/j4/book/book.svg">
+<meta property="article:published_time" content="2020-09-12T07:13:58.000Z">
+<meta property="article:modified_time" content="2020-12-25T08:15:17.430Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://style.youkeda.com/img/ham/course/j4/mvn.svg">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -69,94 +85,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-wwww" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2020/12/25/wwww/" class="article-date">
-  <time class="dt-published" datetime="2020-12-25T07:46:43.000Z" itemprop="datePublished">2020-12-25</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/12/25/wwww/">wwww</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/12/25/wwww/" data-id="ckj403cnc0001pcwk9sws8o3z" data-title="wwww" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2020/12/25/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2020-12-25T07:13:30.270Z" itemprop="datePublished">2020-12-25</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/12/25/hello-world/">hhhh</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/12/25/hello-world/" data-id="ckj403cn70000pcwkhn9z0vdw" data-title="hhhh" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="spring-Spring Web全栈" class="h-entry article article-type-spring" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="spring-Spring Web全栈" class="h-entry article article-type-spring" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2020/09/12/Spring%20Web%E5%85%A8%E6%A0%88/" class="article-date">
   <time class="dt-published" datetime="2020-09-12T07:13:58.000Z" itemprop="datePublished">2020-09-12</time>
@@ -169,8 +98,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/09/12/Spring%20Web%E5%85%A8%E6%A0%88/">Spring web全栈</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      Spring web全栈
     </h1>
   
 
@@ -520,11 +449,23 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
+  
+    <a href="/2020/12/25/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          hhhh
+        
+      </div>
+    </a>
+  
+  
+</nav>
 
   
+</article>
 
 
 </section>
